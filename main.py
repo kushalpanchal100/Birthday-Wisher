@@ -11,7 +11,7 @@ with smtplib.SMTP("smtp.gmail.com") as connection:
     connection.login(user=my_email, password=password)
     connection.sendmail(
         from_addr=my_email, 
-        to_addrs="kushalpanchal2323@gmail.com", 
+        to_addrs="Your Email Address", 
         msg="Subject:Hello\n\nThis is body of my email")
 
 import datetime as dt
